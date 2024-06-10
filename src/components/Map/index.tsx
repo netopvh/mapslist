@@ -95,6 +95,7 @@ const Map: React.FC = () => {
 
                 // Store coordinates
                 coords = [polygonCoordinates];
+                console.log(draw);
             } else {
                 console.log('No features found in draw data.');
             }
